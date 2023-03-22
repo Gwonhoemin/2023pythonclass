@@ -1,5 +1,6 @@
 for dan in range(2, 10) :
-    print('\n%d단 : ' % dan, end = '')
-    for num in range(2, 10) :
-        print('%dx%d=%d ' %(dan, num, dan * num), end = ''
-              )
+    print('\n%단: ' %dan, end = '')
+    for num in range(1, 10) : 
+        if num == 5 :
+            break
+    print('%dx%d=%d ' % (dan, num, dan * num), end = '')
